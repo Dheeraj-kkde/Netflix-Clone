@@ -1,3 +1,7 @@
+.row{
+    margin-left: 20px;
+}
+
 .row_posters{
     display: flex;
     overflow-y: hidden;
@@ -15,8 +19,19 @@
     max-height: 100px;
     margin-right: 10px;;
     transition: transform 450ms;
+    border-radius: 0.2vw;
+    cursor: pointer;
 }
 
 .row_poster:hover {
     transform: scale(1.08);
+}
+
+.row_posterLarge{
+    max-height: 250px;
+}
+
+.row_posterLarge:hover{
+    transform: scale(1.09);
+    opacity: 1;
 }
